@@ -4,8 +4,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\Auth\ForgotPasswordController;
-use App\Http\Controllers\FiliereController;
-use App\Http\Controllers\ModuleController;
+use App\Http\Controllers\Admin\FiliereController;
+use App\Http\Controllers\Admin\ModuleController;
 
 // URL will be: http://127.0.0.1:8000/api/login
 Route::post('/login', [AuthController::class, 'login']);
