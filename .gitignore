@@ -1,0 +1,15 @@
+# .gitignore
+# frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# backend (Laravel)
+backend/vendor/
+backend/.env
+
+# common
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
